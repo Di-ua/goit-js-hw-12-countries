@@ -15,7 +15,7 @@ document.querySelector('.countries').innerHTML =localStorage.getItem('country') 
 const fetchCountries = function (event) {
     event.target.value === '' ? document.querySelector('.countries-list').textContent = "" : ""
     if (event.target.value.length > 0) {
-        fetch(`https://restcountries.eu/rest/v2/name/{name}${event.target.value}`)
+        fetch(`https://restcountries.eu/rest/v2/name/{name}${searchQuery}`)
         .then(response => (response.ok) ? response.json() : Promise.reject(`Error status` + response.status))
  .then(data => {
      if (data.length > 10) {
