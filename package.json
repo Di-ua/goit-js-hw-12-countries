@@ -38,6 +38,7 @@
     "mini-css-extract-plugin": "^0.11.2",
     "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "pnotify": "^5.2.0",
     "postcss-loader": "^4.0.2",
     "sass": "^1.32.4",
     "sass-loader": "^10.1.1",
@@ -55,7 +56,6 @@
     "lodash": "^4.17.20",
     "lodash-es": "^4.17.15",
     "lodash.debounce": "^4.0.8",
-    "pnotify": "^5.2.0",
     "validator": "^13.5.2"
   }
 }
